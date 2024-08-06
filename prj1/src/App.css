@@ -1,0 +1,85 @@
+
+body{
+  background-color: white;
+}
+.App {
+  text-align: center;
+}
+
+
+.txt{  
+  margin-top: 28px;
+  font-size: 50px; 
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #ff0066, #00ccff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent; 
+  text-fill-color: transparent;
+}
+
+.inp {
+  width: 70%; 
+  padding: 12px; 
+  border: 2px solid #ccc; 
+  border-radius: 4px; 
+  font-size: 16px; 
+  color: #333; 
+  background-color: #f9f9f9; 
+  transition: border-color 0.3s ease; 
+}
+
+
+.inp:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+
+
+.btns button {
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px; 
+  color: #fff; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  margin:8px;
+}
+
+.enbtn{
+  background-color: #e08ffb;
+}
+.enbtn:hover{
+  background-color: #c412ff;
+}
+.debtn {
+  background-color: #e08ffb;
+}
+.debtn:hover{
+  background-color: #c412ff;
+}
+button:active {
+  transform: scale(0.90); 
+}
+
+
+
+.result{
+  margin-top: 80px;
+  padding: 10px; 
+  border-radius: 5px; 
+  border:1px rgba(128, 128, 128, 0.701) solid;
+  background-color: #f8f9fa; 
+}
+.resulth{
+  font-size: 28px; 
+  color: #333;
+}
+
+.resultc{
+  color: #333;
+  font-size: 22px;;
+}
+
